@@ -16,6 +16,7 @@ library(lmerTest)
 library(lsr)
 library(qrencoder)
 
+#UI setup
 shinyUI(fluidPage(theme = "bootstrap.css", 
                   shinyjs::useShinyjs(),
                   navbarPage("HYPOTHESIS TESTING - Simon Gonzalez, James Grama & Catherine Travis - Australian National University",
